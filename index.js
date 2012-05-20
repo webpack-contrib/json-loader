@@ -3,6 +3,7 @@
 	Author Tobias Koppers @sokra
 */
 module.exports = function() {
+	this.cacheable && this.cacheable();
 	var values = this.values = [];
 	var options = this;
 	var args = Array.prototype.slice.call(arguments);
