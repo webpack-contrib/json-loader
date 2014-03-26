@@ -8,4 +8,3 @@ module.exports = function(source) {
 	this.value = [value];
 	return "module.exports = " + JSON.stringify(value, undefined, "\t");
 }
-module.exports.seperable = true;
