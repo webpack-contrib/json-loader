@@ -3,13 +3,8 @@
 	"version": "0.5.1",
 	"author": "Tobias Koppers @sokra",
 	"description": "json loader module for webpack",
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://www.opensource.org/licenses/mit-license.php"
-		}
-	],
-	"repository": { 
+	"license": "MIT",
+	"repository": {
 		"type": "git",
 		"url" : "https://github.com/webpack/json-loader.git"
 	}
