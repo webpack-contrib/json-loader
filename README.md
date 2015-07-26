@@ -1,5 +1,9 @@
 # json loader for webpack
 
+## Installation
+
+`npm install json-loader`
+
 ## Usage
 
 ``` javascript
