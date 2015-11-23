@@ -1,6 +1,6 @@
 {
   "name": "json-loader",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "author": "Tobias Koppers @sokra",
   "description": "json loader module for webpack",
   "license": "MIT",
