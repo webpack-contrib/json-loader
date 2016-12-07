@@ -15,6 +15,8 @@
   <h1>JSON Loader</h1>
 </div>
 
+**Note: Since webpack v2, JSON files will work by default. You might still want to use this if you use a custom file extension.**
+
 <h2 align="center">Install</h2>
 
 ```bash
@@ -23,27 +25,41 @@ npm install --save-dev json-loader
 
 <h2 align="center">Usage</h2>
 
-**require**
-```js
-const json = require("json!./file.json")
-```
+
+### Configuration (recommended)
 
 **webpack.config.js**
-```js
-const json = require('file.json')
-```
-
 ```js
 module.exports = {
   module: {
     rules: [
       {
         test: /\.json$/,
-        use: [ 'json-loader' ]
+        use: 'json-loader'
       }
     ]
   }
 }
+```
+
+```js
+import json from 'file.json';
+```
+
+### CLI
+
+```bash
+webpack --module-bind 'json=json-loader'
+```
+
+```js
+import json from 'file.json';
+```
+
+### Inline
+
+```js
+import json from 'json-loader!file.json';
 ```
 
 <h2 align="center">Maintainer</h2>
