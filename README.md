@@ -66,6 +66,11 @@ import json from 'json-loader!file.json';
   <tbody>
     <tr>
       <td align="center">
+        <img width="150" height="150" src="https://avatars.githubusercontent.com/sokra?v=3">
+        </br>
+        <a href="https://github.com/sokra">Tobias Koppers</a>
+      </td>
+      <td align="center">
         <img width="150" height="150"
         src="https://avatars3.githubusercontent.com/u/166921?v=3&s=150">
         </br>
