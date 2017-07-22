@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.6"></a>
+## [0.5.6](https://github.com/webpack/json-loader/compare/v0.5.5...v0.5.6) (2017-07-22)
+
+
+### Bug Fixes
+
+* **index:** only export CJS modules (`webpack v1.0.0`) && add deprecation warning (`webpack v2.0.0`) ([#55](https://github.com/webpack/json-loader/issues/55)) ([d34395a](https://github.com/webpack/json-loader/commit/d34395a))
+
+
+
 <a name="0.5.5"></a>
 ## [0.5.5](https://github.com/webpack/json-loader/compare/v0.5.2...v0.5.5) (2017-07-22)
 
