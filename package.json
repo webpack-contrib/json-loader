@@ -4,6 +4,12 @@
   "author": "Tobias Koppers @sokra",
   "description": "json loader module for webpack",
   "license": "MIT",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^4.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/webpack/json-loader.git"
