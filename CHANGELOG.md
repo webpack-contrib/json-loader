@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.7"></a>
+## [0.5.7](https://github.com/webpack/json-loader/compare/v0.5.6...v0.5.7) (2017-07-22)
+
+
+### Bug Fixes
+
+* Strip deprecation warning ([#58](https://github.com/webpack/json-loader/issues/58)) ([a2cf6c6](https://github.com/webpack/json-loader/commit/a2cf6c6))
+
+
+
 <a name="0.5.6"></a>
 ## [0.5.6](https://github.com/webpack/json-loader/compare/v0.5.5...v0.5.6) (2017-07-22)
 
