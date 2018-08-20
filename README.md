@@ -21,7 +21,7 @@
 npm install --save-dev json-loader
 ```
 
-> ⚠️ **Since `webpack >= v2.0.0`, importing of JSON files will work by default. You might still want to use this if you use a custom file extension. See the [v1.0.0 -> v2.0.0 Migration Guide](https://webpack.js.org/guides/migrating/#json-loader-is-not-required-anymore) for more information**
+> ⚠️ **Since `webpack >= v2.0.0`, importing of JSON files will work by default. You might still want to use this if you use a custom file extension. See the [v1.0.0 -> v2.0.0 Migration Guide](https://webpack.js.org/migrate/3/#json-loader-is-not-required-anymore) for more information**
 
 <h2 align="center">Usage</h2>
 
